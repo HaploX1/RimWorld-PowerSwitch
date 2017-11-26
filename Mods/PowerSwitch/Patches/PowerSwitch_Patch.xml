@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "PowerSwitch"]/thingClass</xpath>
+		<value>
+			<thingClass>PowerSwitch.Building_PowerSwitchMod</thingClass>
+		</value>
+	</Operation>
+	
+</Patch>
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ResearchAutoEnemySwitch.label>PS：自动应敌开关</ResearchAutoEnemySwitch.label>
+  <ResearchAutoEnemySwitch.description>研究用于电力开关的探敌侦测器。解锁自动应敌开关。</ResearchAutoEnemySwitch.description>
+  <ResearchAutoEnemySwitch.descriptionDiscovered>现在你的电力开关可以设置成侦测到敌人时自动开关。\n\n注意：不要将你的灯、炮台等直接连接到电力开关上！应该连接到延伸出来的电缆上！</ResearchAutoEnemySwitch.descriptionDiscovered>
+
+
+</LanguageData>

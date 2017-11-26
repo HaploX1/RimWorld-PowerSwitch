@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ResearchAutoPowerSwitch.label>PS：自动电力开关</ResearchAutoPowerSwitch.label>
+  <ResearchAutoPowerSwitch.description>研究用于电力开关的运动侦测器。解锁自动电力开关。</ResearchAutoPowerSwitch.description>
+  <ResearchAutoPowerSwitch.descriptionDiscovered>现在你的电力开关可以设置为当有人在房间内时自动开关。此外还可以进一步增强。\n\n注意：不要将你的灯、炮台等直接连接到电力开关上！应该连接到延伸出来的电缆上！</ResearchAutoPowerSwitch.descriptionDiscovered>
+
+
+</LanguageData>
