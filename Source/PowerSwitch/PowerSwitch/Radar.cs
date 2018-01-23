@@ -41,7 +41,7 @@ namespace CommonMisc
         public static IEnumerable<Pawn> FindEnemyPawnsNoAnimals(Map map)
         {
             // LINQ version
-            return map.mapPawns.AllPawnsSpawned.Where(p => !p.RaceProps.Animal && p.HostileTo(Faction.OfPlayer));
+            return map.mapPawns.AllPawnsSpawned.Where(p => !p.RaceProps.Animal && p.HostileTo(Faction.OfPlayer) && !p.InContainerEnclosed);
         }
 
         /// <summary>
@@ -62,7 +62,7 @@ namespace CommonMisc
         public static IEnumerable<Pawn> FindEnemyPawns(Map map)
         {
             // LINQ version
-            return map.mapPawns.AllPawnsSpawned.Where(p => p.HostileTo(Faction.OfPlayer));
+            return map.mapPawns.AllPawnsSpawned.Where(p => p.HostileTo(Faction.OfPlayer) && !p.InContainerEnclosed);
         }
         /// <summary>
         /// Find enemy pawns and return the count
