@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building_PowerSwitch.cs" />
+    <Compile Include="PowerSwitch_ModSettings.cs" />
+    <Compile Include="PowerSwitch_Mod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Radar.cs">
       <SubType>Code</SubType>

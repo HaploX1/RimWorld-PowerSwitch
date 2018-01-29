@@ -17,5 +17,11 @@
   <PowerSwitch_Timer>定時器</PowerSwitch_Timer>
   <PowerSwitch_TimeOnTimeOff>{0:00}時 - {1:00}時</PowerSwitch_TimeOnTimeOff>
 
+	<!-- PowerSwitch ModSettings -->
+	<PowerSwitch_ModOptions_Category>Power Switch</PowerSwitch_ModOptions_Category>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation>Switch Enemy Detection via Designator (Standard: On)</PowerSwitch_ModOptions_EnemyDetectionViaDesignation>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>If you set this to off, the enemy detection will switch directly, without using the designator.</PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>
+	<PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>Set the Enemy Detection range (Standard: 45% of Map-Size)</PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>
+
 
 </LanguageData>

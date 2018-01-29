@@ -39,6 +39,8 @@ namespace PowerSwitch
 
         private int ticksNoUpdate;
 
+        private static bool enemyDetectionSwitchViaDesignator = true;
+
         // work variables
         private int enemySearchCount = 0;
         private int enemySearchCountMax = 180; //search every 3s
@@ -117,7 +119,9 @@ namespace PowerSwitch
         {
             base.SpawnSetup(map, respawningAfterLoad);
 
-            radarDistance = map.info.Size.x / 2f; // the search radius for enemies 
+            radarDistance = map.info.Size.x * PowerSwitch_ModSettings.enemyDetectionRangePercentofMap; // the search radius for enemies 
+            radarDistancePawn = PowerSwitch_ModSettings.pawnNearbyDetectionRange;
+            enemyDetectionSwitchViaDesignator = PowerSwitch_ModSettings.switchEnemyDetectionViaDesignation;
 
             // Translations
             txtSwitchOnOff = "PowerSwitch_SwitchOnOff".Translate(); // "Switch: On/Off.";
@@ -260,13 +264,24 @@ namespace PowerSwitch
                         if (foundNoAnimals && (!flickableComp.SwitchIsOn || ticksSwitchOff >= 0))
                         {
                             ResetTimedSwitch();
-                            SetWantSwitchOn(true);
+                            if (enemyDetectionSwitchViaDesignator)
+                                SetWantSwitchOn(true);
+                            else
+                            {
+                                flickableComp.SwitchIsOn = true; // No designator usage!
+                                SetWantSwitchOn(true);
+                            }
                         }
                         // Switch off delayed
                         if (!foundNoAnimals && flickableComp.SwitchIsOn && (ticksSwitchOff < 0))
                         {
                             ResetTimedSwitch();
-                            SetTimedSwitch(false, true);
+                            if (enemyDetectionSwitchViaDesignator)
+                                SetTimedSwitch(false, true);
+                            else
+                            {
+                                SetTimedSwitch(false, true, true);
+                            }
                         }
                     }
 
@@ -277,13 +292,24 @@ namespace PowerSwitch
                         if (foundWithAnimals && (flickableComp.SwitchIsOn || ticksSwitchOn >= 0))
                         {
                             ResetTimedSwitch();
-                            SetWantSwitchOn(false);
+                            if (enemyDetectionSwitchViaDesignator)
+                                SetWantSwitchOn(false);
+                            else
+                            {
+                                flickableComp.SwitchIsOn = false; // No designator usage!
+                                SetWantSwitchOn(false);
+                            }
                         }
                         // Switch on delayed
                         if (!foundWithAnimals && !flickableComp.SwitchIsOn && (ticksSwitchOn < 0))
                         {
                             ResetTimedSwitch();
-                            SetTimedSwitch(true, false);
+                            if (enemyDetectionSwitchViaDesignator)
+                                SetTimedSwitch(true, false);
+                            else
+                            {
+                                SetTimedSwitch(true, false, true);
+                            }
                         }
                     }
 

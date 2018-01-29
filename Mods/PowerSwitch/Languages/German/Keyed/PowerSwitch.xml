@@ -17,5 +17,11 @@
 	<PowerSwitch_Timer>Zeitschaltuhr</PowerSwitch_Timer>
 	<PowerSwitch_TimeOnTimeOff>{0:00}h - {1:00}h</PowerSwitch_TimeOnTimeOff>
 
+	<!-- PowerSwitch ModSettings -->
+	<PowerSwitch_ModOptions_Category>Power Switch</PowerSwitch_ModOptions_Category>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation>Schalte die Feinderkennung über einen Umschaltauftrag um (Standard: Ein)</PowerSwitch_ModOptions_EnemyDetectionViaDesignation>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>Wenn dieses auf AUS steht schaltet der Schalter direkt um, ohne einen Schaltauftrag zu setzen.</PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>
+	<PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>Setze die Feinderkennungsreichweite (Standard: 45% of Map-Size)</PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>
+
 	
 </LanguageData>
