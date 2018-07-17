@@ -4,8 +4,7 @@
 	<ResearchProjectDef>
 		<defName>ResearchPowerConduitsInvisible</defName>
 		<label>Hidden Power Conduits</label>
-		<description>Research how you can hide the power conduits.</description>
-		<descriptionDiscovered>Now your power conduits can be hidden. They are also better shielded against damage.</descriptionDiscovered>
+		<description>Research how you can hide the power conduits.\n\nNote: They are also better shielded against damage.</description>
 		<baseCost>150</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>

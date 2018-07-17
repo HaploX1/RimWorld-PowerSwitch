@@ -11,7 +11,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<statBases>
 			<SellPriceFactor>0.70</SellPriceFactor>
 		</statBases>
@@ -19,12 +19,10 @@
 
 
 
-
-
-
 	<ThingDef ParentName="BuildingPowerConduitInvisibleBase">
 		<defName>PowerConduitInvisible</defName>
 		<label>power conduit (h)</label>
+		<description>A set of electrical cables for moving power around. This one is hidden in the ground.</description>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
 		<graphicData>
@@ -38,14 +36,15 @@
 				<rect>(0,0.35,1,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<blueprintGraphicData>
-			<texPath>Things/Building/Linked/PowerConduit_Invisible_Blueprint_Atlas</texPath>
-		</blueprintGraphicData>
 		<uiIconPath>Things/Building/Linked/PowerConduit_Invisible_MenuIcon</uiIconPath>
+		<uiIconScale>1.0</uiIconScale>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
 			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/PowerConduit_Invisible_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
 		</building>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<passability>Standable</passability>
@@ -56,10 +55,9 @@
 			<Flammability>0.0</Flammability>
 			<Beauty>0</Beauty>
 		</statBases>
-		<description>A set of electrical cables for moving power around. This one is hidden in the ground.</description>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
-			<Steel>1</Steel>
+			<Steel>2</Steel>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -73,7 +71,7 @@
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<constructEffect>ConstructMetal</constructEffect>
