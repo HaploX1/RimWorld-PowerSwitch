@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<ResearchAutoEnemySwitch.label>Alternar automaticamente con enemigos</ResearchAutoEnemySwitch.label>
+	<ResearchAutoEnemySwitch.description>Investigue un detector de enemigos para el interruptor. Esto permitirá la alternancia automática de energía cuando se detecte un enemigo</ResearchAutoEnemySwitch.description>
+	<ResearchAutoEnemySwitch.descriptionDiscovered>Ahora puede configurar su interruptor para que se alterne automáticamente cuando se detecte un enemigo.</ResearchAutoEnemySwitch.descriptionDiscovered>
+	
+	
+	<ResearchAutoPowerSwitch.label>Interruptor automático</ResearchAutoPowerSwitch.label>
+	<ResearchAutoPowerSwitch.description>Investigue un detector de movimiento para el interruptor. Esto permitirá la alternancia automática de energía.</ResearchAutoPowerSwitch.description>
+	<ResearchAutoPowerSwitch.descriptionDiscovered>Ahora se pueden configurar los interruptores para que se enciendan automáticamente cuando alguien se encuentre en la habitación. Además, ahora es posible realizar mejoras adicionales.</ResearchAutoPowerSwitch.descriptionDiscovered>
+	
+</LanguageData>
