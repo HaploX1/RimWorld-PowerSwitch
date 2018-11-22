@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well  Steam76561198079058811  ноябрь2018 -->
+
 <LanguageData>
-	
-	<PowerConduitInvisible.label>Кабель</PowerConduitInvisible.label>
-	<PowerConduitInvisible.description>Набор электрических проводов для передачи электроэнергии.</PowerConduitInvisible.description>
-	
+
+	<PowerConduitInvisible.label>Скрытый кабель</PowerConduitInvisible.label>
+	<PowerConduitInvisible.description>Электрический провод для скрытой прокладки.</PowerConduitInvisible.description>
+
 </LanguageData>

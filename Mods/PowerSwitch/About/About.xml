@@ -17,10 +17,11 @@ Description:
 - Timer: Switches on and off at specified times. Time is initially set to 6h->On and 20h->Off. This can be changed by pressing the buttons repeatedly
 - Hidden power conduits can be researched.
 
-(Version: 1.0.0)
+(Version: 1.0.1)
 Language: English, German, Russian, Chinese, Spanish
 
-Thanks to duduluu and Biscuit now with a translation for Chinese (both)
-Thanks to 53N4 now with a spanish translation
+Thanks to duduluu and Biscuit for the Chinese translation
+Thanks to 53N4 for the Spanish translation
+Thanks to Well for the Russian translation
 	</description>
 </ModMetaData>
