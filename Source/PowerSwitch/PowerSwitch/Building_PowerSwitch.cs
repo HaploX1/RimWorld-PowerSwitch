@@ -154,9 +154,10 @@ namespace PowerSwitch
 
             DestroyOtherPowerTransmitter();
 
-            //// Wall: can't have this deactive!
-            //if (isWall)
-            //    pawnSearchModeDistanceActive = true;
+            // Wall: can't have this deactive!
+            bool isWall = RegionAndRoomQuery.RoomAt(this.Position, this.Map) == null;
+            if (isWall)
+                pawnSearchModeDistanceActive = true;
 
 
             this.flickableComp = base.GetComp<CompFlickable>();

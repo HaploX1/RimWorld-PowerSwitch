@@ -4,3 +4,5 @@ Release
 .hg
 obj/
 _RimWorldDLLs
+Source/PowerSwitch/.vs/PowerSwitch/v16/Server/sqlite3/db.lock
+Source/PowerSwitch/.vs/PowerSwitch/v16/Server/sqlite3/storage.ide
