@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<ResearchAutoEnemySwitch.label>Alternar automaticamente con enemigos</ResearchAutoEnemySwitch.label>
+	<ResearchAutoEnemySwitch.description>Investigue un detector de enemigos para el interruptor. Esto permitirá la alternancia automática de energía cuando se detecte un enemigo</ResearchAutoEnemySwitch.description>
+
+	
+	<ResearchAutoPowerSwitch.label>Interruptor automático</ResearchAutoPowerSwitch.label>
+	<ResearchAutoPowerSwitch.description>Investigue un detector de movimiento para el interruptor. Esto permitirá la alternancia automática de energía.</ResearchAutoPowerSwitch.description>
+
+</LanguageData>

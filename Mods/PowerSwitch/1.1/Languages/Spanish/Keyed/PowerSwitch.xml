@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- PowerSwitch -->
+	<PowerSwitch_SwitchOnOff>Alternar: Encendido/Apagado</PowerSwitch_SwitchOnOff>
+	<PowerSwitch_AutoONMotionRoom>Encendido auto: Movimiento en la sala.</PowerSwitch_AutoONMotionRoom>
+	<PowerSwitch_AutoONMotionNearbyRange>Encendido automatico: Movimiento cercano. Rango:</PowerSwitch_AutoONMotionNearbyRange>
+	<PowerSwitch_AutoONEnemyNearbyRange>Encendido automatico: Enemigos cercanos. Rango:</PowerSwitch_AutoONEnemyNearbyRange>
+	<PowerSwitch_AutoOFFEnemyNearbyRange>Apagado automatico: Enemigos cercanos. Rango:</PowerSwitch_AutoOFFEnemyNearbyRange>
+	<PowerSwitch_TimerClickSwitchOnTime>Temporizadormatico: Clic para ajustar la hora de encendido.</PowerSwitch_TimerClickSwitchOnTime>
+	<PowerSwitch_TimerClickSwitchOffTime>Temporizadormatico: Clic para ajustar la hora de apagado.</PowerSwitch_TimerClickSwitchOffTime>
+	<PowerSwitch_On>Encendido</PowerSwitch_On>
+	<PowerSwitch_Off>Apagado</PowerSwitch_Off>
+	<PowerSwitch_OnRange>Encendido - Rango:</PowerSwitch_OnRange>
+	<PowerSwitch_AutoMotion>Alternar con movimiento:</PowerSwitch_AutoMotion>
+	<PowerSwitch_AutoEnemy>Alternar con enemigos:</PowerSwitch_AutoEnemy>
+	<PowerSwitch_Timer>Temporizador</PowerSwitch_Timer>
+	<PowerSwitch_TimeOnTimeOff>{0:00}h - {1:00}h</PowerSwitch_TimeOnTimeOff>
+
+	<!-- PowerSwitch ModSettings -->
+	<PowerSwitch_ModOptions_Category>Power Switch</PowerSwitch_ModOptions_Category>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation>Detección de Enemigos mediante el interruptor (De serie: Encendido)</PowerSwitch_ModOptions_EnemyDetectionViaDesignation>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>Si lo desactivas, la detección de enemigos se activará directamente, sin alternar manualmente el iterruptor.</PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>
+	<PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>Establecer el rango de detección de enemigos (De serie: 45% del tamaño del mapa)</PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>
+	
+</LanguageData>

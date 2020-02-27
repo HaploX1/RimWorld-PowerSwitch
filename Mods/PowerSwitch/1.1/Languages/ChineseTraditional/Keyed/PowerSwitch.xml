@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PowerSwitch -->
+  <PowerSwitch_SwitchOnOff>電力開關：開/關。</PowerSwitch_SwitchOnOff>
+  <PowerSwitch_AutoONMotionRoom>房間內有運動物體時自動開啟。</PowerSwitch_AutoONMotionRoom>
+  <PowerSwitch_AutoONMotionNearbyRange>附近有運動物體時自動開啟。範圍：</PowerSwitch_AutoONMotionNearbyRange>
+  <PowerSwitch_AutoONEnemyNearbyRange>附近有敵人時自動開啟。範圍：</PowerSwitch_AutoONEnemyNearbyRange>
+  <PowerSwitch_AutoOFFEnemyNearbyRange>附近有敵人時自動關閉。範圍：</PowerSwitch_AutoOFFEnemyNearbyRange>
+  <PowerSwitch_TimerClickSwitchOnTime>定時器：點擊設置開啟時間</PowerSwitch_TimerClickSwitchOnTime>
+  <PowerSwitch_TimerClickSwitchOffTime>定時器：點擊設置關閉時間</PowerSwitch_TimerClickSwitchOffTime>
+  <PowerSwitch_On>開</PowerSwitch_On>
+  <PowerSwitch_Off>關</PowerSwitch_Off>
+  <PowerSwitch_OnRange>開 - 範圍：</PowerSwitch_OnRange>
+  <PowerSwitch_AutoMotion>運動捕捉：</PowerSwitch_AutoMotion>
+  <PowerSwitch_AutoEnemy>應敵模式：</PowerSwitch_AutoEnemy>
+  <PowerSwitch_Timer>定時器</PowerSwitch_Timer>
+  <PowerSwitch_TimeOnTimeOff>{0:00}時 - {1:00}時</PowerSwitch_TimeOnTimeOff>
+
+	<!-- PowerSwitch ModSettings -->
+	<PowerSwitch_ModOptions_Category>Power Switch</PowerSwitch_ModOptions_Category>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation>Switch Enemy Detection via Designator (Standard: On)</PowerSwitch_ModOptions_EnemyDetectionViaDesignation>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>If you set this to off, the enemy detection will switch directly, without using the designator.</PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>
+	<PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>Set the Enemy Detection range (Standard: 45% of Map-Size)</PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>
+
+
+</LanguageData>

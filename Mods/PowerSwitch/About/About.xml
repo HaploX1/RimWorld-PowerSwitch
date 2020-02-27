@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>PowerSwitch</name>
+	<packageId>Haplo.PowerSwitch</packageId>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=2890.0</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies></modDependencies>
+	<loadBefore></loadBefore>
+	<loadAfter></loadAfter>
+	<incompatibleWith></incompatibleWith>
 	<description>This mod adds additional functions to the power switch. 
 	
 Here you have various research topics available, which will improve the functionality of the switch.
@@ -19,7 +25,7 @@ Description:
 - Timer: Switches on and off at specified times. Time is initially set to 6h->On and 20h->Off. This can be changed by pressing the buttons repeatedly
 - Hidden power conduits can be researched.
 
-(Version: 1.0.2)
+(Version: 1.1.0)
 Language: English, German, Russian, Chinese, Spanish
 
 Thanks to duduluu and Biscuit for the Chinese translation

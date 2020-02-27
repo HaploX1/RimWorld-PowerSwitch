@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- PowerSwitch -->
+	<PowerSwitch_SwitchOnOff>Schalte Ein/Aus.</PowerSwitch_SwitchOnOff>
+	<PowerSwitch_AutoONMotionRoom>Autom. AN: Bewegung im Raum.</PowerSwitch_AutoONMotionRoom>
+	<PowerSwitch_AutoONMotionNearbyRange>Autom. AN: Bewegung in Nähe. Reichweite:</PowerSwitch_AutoONMotionNearbyRange>
+	<PowerSwitch_AutoONEnemyNearbyRange>Autom. AN: Feind in Nähe. Reichweite:</PowerSwitch_AutoONEnemyNearbyRange>
+	<PowerSwitch_AutoOFFEnemyNearbyRange>Autom. AUS: Feind in Nähe. Reichweite:</PowerSwitch_AutoOFFEnemyNearbyRange>
+	<PowerSwitch_TimerClickSwitchOnTime>Zeitschaltuhr: Klicken um die Einschaltzeit zu ändern.</PowerSwitch_TimerClickSwitchOnTime>
+	<PowerSwitch_TimerClickSwitchOffTime>Zeitschaltuhr: Klicken um die Ausschaltzeit zu ändern.</PowerSwitch_TimerClickSwitchOffTime>
+	<PowerSwitch_On>An</PowerSwitch_On>
+	<PowerSwitch_Off>Aus</PowerSwitch_Off>
+	<PowerSwitch_OnRange>An - Reichweite:</PowerSwitch_OnRange>
+	<PowerSwitch_AutoMotion>Autom. Bewegung:</PowerSwitch_AutoMotion>
+	<PowerSwitch_AutoEnemy>Autom. Feind:</PowerSwitch_AutoEnemy>
+	<PowerSwitch_Timer>Zeitschaltuhr</PowerSwitch_Timer>
+	<PowerSwitch_TimeOnTimeOff>{0:00}h - {1:00}h</PowerSwitch_TimeOnTimeOff>
+
+	<!-- PowerSwitch ModSettings -->
+	<PowerSwitch_ModOptions_Category>Power Switch</PowerSwitch_ModOptions_Category>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation>Schalte die Feinderkennung über einen Umschaltauftrag um (Standard: Ein)</PowerSwitch_ModOptions_EnemyDetectionViaDesignation>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>Wenn dieses auf AUS steht schaltet der Schalter direkt um, ohne einen Schaltauftrag zu setzen.</PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>
+	<PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>Setze die Feinderkennungsreichweite (Standard: 45% of Map-Size)</PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>
+
+	
+</LanguageData>
