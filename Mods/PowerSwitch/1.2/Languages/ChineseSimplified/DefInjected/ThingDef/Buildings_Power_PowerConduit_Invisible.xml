@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PowerConduitInvisible.label>电缆（隐藏）</PowerConduitInvisible.label>
+  <PowerConduitInvisible.description>一组用于传输电力的电缆。这种是埋设于地下的型号。</PowerConduitInvisible.description>
+  <PowerConduitInvisible_Blueprint.label>电缆（隐藏）（蓝图）</PowerConduitInvisible_Blueprint.label>
+  <PowerConduitInvisible_Frame.label>电缆（隐藏）（建造中）</PowerConduitInvisible_Frame.label>
+  <PowerConduitInvisible_Frame.description>一组用于传输电力的电缆。这种是埋设于地下的型号。</PowerConduitInvisible_Frame.description>
+
+
+</LanguageData>
