@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<ResearchAutoEnemySwitch.label>Détecteur automatique de présence hostile</ResearchAutoEnemySwitch.label>
+	<ResearchAutoEnemySwitch.description>Recherchez un détecteur automatique de présence hostile pour l'interrupteur d'alimentation. Cela permettra la commutation automatique de l'alimentation lorsqu'un ennemi est trouvé.</ResearchAutoEnemySwitch.description>
+	
+	<ResearchAutoPowerSwitch.label>Détecteur de mouvement</ResearchAutoPowerSwitch.label>
+	<ResearchAutoPowerSwitch.description>Recherchez un détecteur de mouvement pour l'interrupteur d'alimentation. Cela permettra la commutation automatique de l'alimentation.</ResearchAutoPowerSwitch.description>
+
+</LanguageData>

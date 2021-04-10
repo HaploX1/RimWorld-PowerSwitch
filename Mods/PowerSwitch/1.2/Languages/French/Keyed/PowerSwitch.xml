@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- PowerSwitch -->
+	<PowerSwitch_SwitchOnOff>Allumer / éteindre.</PowerSwitch_SwitchOnOff>
+	<PowerSwitch_AutoONMotionRoom>Détecteur de mouvement.</PowerSwitch_AutoONMotionRoom>
+	<PowerSwitch_AutoONMotionNearbyRange>Détecteur de mouvement : Rayon:</PowerSwitch_AutoONMotionNearbyRange>
+	<PowerSwitch_AutoONEnemyNearbyRange>Détecteur de mouvement hostile : Rayon :</PowerSwitch_AutoONEnemyNearbyRange>
+	<PowerSwitch_AutoOFFEnemyNearbyRange>Arrêt automatique: ennemi à proximité. Rayon:</PowerSwitch_AutoOFFEnemyNearbyRange>
+	<PowerSwitch_TimerClickSwitchOnTime>Minuterie: cliquez pour régler l'heure de mise en marche.</PowerSwitch_TimerClickSwitchOnTime>
+	<PowerSwitch_TimerClickSwitchOffTime>Minuterie: cliquez pour régler l'heure d'arrêt.</PowerSwitch_TimerClickSwitchOffTime>
+	<PowerSwitch_On>Marche</PowerSwitch_On>
+	<PowerSwitch_Off>Arrêt</PowerSwitch_Off>
+	<PowerSwitch_OnRange>Activer - Rayon:</PowerSwitch_OnRange>
+	<PowerSwitch_AutoMotion>Activation automatique:</PowerSwitch_AutoMotion>
+	<PowerSwitch_AutoEnemy>Activation automatique en cas d'ennemis:</PowerSwitch_AutoEnemy>
+	<PowerSwitch_Timer>Minuterie</PowerSwitch_Timer>
+	<PowerSwitch_TimeOnTimeOff>{0:00}h - {1:00}h</PowerSwitch_TimeOnTimeOff>
+
+	<!-- PowerSwitch ModSettings -->
+	<PowerSwitch_ModOptions_Category>Interrupteur</PowerSwitch_ModOptions_Category>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation>Activer la détection de l'ennemi via l'indicateur (standard: activé)</PowerSwitch_ModOptions_EnemyDetectionViaDesignation>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>Si vous désactivez cette option, la détection de l'ennemi basculera directement, sans utiliser l'indicateur.</PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>
+	<PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>Définir la plage de détection des ennemis (Standard: 45% de la taille de la carte)</PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>
+	
+</LanguageData>
