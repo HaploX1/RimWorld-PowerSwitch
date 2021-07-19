@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<ResearchAutoEnemySwitch.label>Automatic Enemy Switch</ResearchAutoEnemySwitch.label>
+	<ResearchAutoEnemySwitch.description>Research an enemy detector for the power switch. This will allow automatic power switching when an enemy is found.</ResearchAutoEnemySwitch.description>
+	
+	<ResearchAutoPowerSwitch.label>Automatic Power Switch</ResearchAutoPowerSwitch.label>
+	<ResearchAutoPowerSwitch.description>Research a motion detector for the power switch. This will allow automatic power switching.</ResearchAutoPowerSwitch.description>
+
+</LanguageData>

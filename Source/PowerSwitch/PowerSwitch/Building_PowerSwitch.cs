@@ -256,13 +256,14 @@ namespace PowerSwitch
                 {
                     enemySearchCount = 0;
                     bool foundWithAnimals = SearchForEnemy(Map);
-                    bool foundNoAnimals = SearchForEnemyNoAnimals(Map);
+                    //bool foundNoAnimals = SearchForEnemyNoAnimals(Map);
 
                     // Power on when enemy in range!
                     if (autoSwitchOnEnemyActive)
                     {
                         // Switch on undelayed
-                        if (foundNoAnimals && (!flickableComp.SwitchIsOn || ticksSwitchOff >= 0))
+                        //if (foundNoAnimals && (!flickableComp.SwitchIsOn || ticksSwitchOff >= 0))
+                        if (foundWithAnimals && (!flickableComp.SwitchIsOn || ticksSwitchOff >= 0))
                         {
                             ResetTimedSwitch();
                             if (enemyDetectionSwitchViaDesignator)
@@ -274,7 +275,8 @@ namespace PowerSwitch
                             }
                         }
                         // Switch off delayed
-                        if (!foundNoAnimals && flickableComp.SwitchIsOn && (ticksSwitchOff < 0))
+                        //if (!foundNoAnimals && flickableComp.SwitchIsOn && (ticksSwitchOff < 0))
+                        if (!foundWithAnimals && flickableComp.SwitchIsOn && (ticksSwitchOff < 0))
                         {
                             ResetTimedSwitch();
                             if (enemyDetectionSwitchViaDesignator)

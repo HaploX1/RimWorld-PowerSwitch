@@ -53,7 +53,7 @@ namespace CommonMisc
         public static IEnumerable<Pawn> FindEnemyPawns(IntVec3 Position, Map map, float Distance)
         {
             // LINQ version
-            return map.mapPawns.AllPawnsSpawned.Where(p => p.HostileTo(Faction.OfPlayer) && !p.InContainerEnclosed && p.Position.InHorDistOf(Position, Distance));
+            return map.mapPawns.AllPawnsSpawned.Where(p => (p.InAggroMentalState || p.HostileTo(Faction.OfPlayer)) && !p.InContainerEnclosed && p.Position.InHorDistOf(Position, Distance));
         }
         /// <summary>
         /// Find enemy pawns in reach and return a list
@@ -62,7 +62,7 @@ namespace CommonMisc
         public static IEnumerable<Pawn> FindEnemyPawns(Map map)
         {
             // LINQ version
-            return map.mapPawns.AllPawnsSpawned.Where(p => p.HostileTo(Faction.OfPlayer) && !p.InContainerEnclosed);
+            return map.mapPawns.AllPawnsSpawned.Where(p => (p.InAggroMentalState || p.HostileTo(Faction.OfPlayer)) && !p.InContainerEnclosed);
         }
         /// <summary>
         /// Find enemy pawns and return the count

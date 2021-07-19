@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "PowerSwitch"]/thingClass</xpath>
+		<value>
+			<thingClass>PowerSwitch.Building_PowerSwitchMod</thingClass>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "PowerSwitch"]/altitudeLayer</xpath>
+		<value>
+			<altitudeLayer>BuildingOnTop</altitudeLayer>
+		</value>
+	</Operation>
+
+	
+	<!-- Check if <building/isEdifice /> exists. If not, add it -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName = "PowerSwitch"]/building/isEdifice</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PowerSwitch"]/building</xpath>
+				<value>
+					<isEdifice>false</isEdifice>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "PowerSwitch"]/building/isEdifice</xpath>
+		<value>
+			<isEdifice>false</isEdifice>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName = "PowerSwitch"]/building/canPlaceOverWall</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PowerSwitch"]/building</xpath>
+				<value>
+					<canPlaceOverWall>true</canPlaceOverWall>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "PowerSwitch"]/building/canPlaceOverWall</xpath>
+		<value>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</value>
+	</Operation>
+	
+	<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "PowerSwitch"]</xpath>
+		<value>
+			<clearBuildingArea>true</clearBuildingArea>
+		</value>
+	</Operation>
+	-->
+      
+</Patch>
+
