@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<ResearchAutoEnemySwitch.label>Schalter: Feinderkennung</ResearchAutoEnemySwitch.label>
+	<ResearchAutoEnemySwitch.description>Erforsche eine Feinderkennung für den Schalter. Das erlaubt automatisches schalten, wenn Feinde in der Nähe sind.</ResearchAutoEnemySwitch.description>
+	
+	<ResearchAutoPowerSwitch.label>Autom. Schalter</ResearchAutoPowerSwitch.label>
+	<ResearchAutoPowerSwitch.description>Erforsche einen Bewegugsmelder für den Schalter. Das erlaubt automatisches schalten, wenn sich jemand in der Nähe aufhält.</ResearchAutoPowerSwitch.description>
+
+</LanguageData>

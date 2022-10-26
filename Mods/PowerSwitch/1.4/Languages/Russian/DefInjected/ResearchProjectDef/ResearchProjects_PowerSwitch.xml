@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well  Steam76561198079058811  ноябрь2018 -->
+
+<LanguageData>
+
+	<ResearchAutoEnemySwitch.label>Детектор противника</ResearchAutoEnemySwitch.label>
+	<ResearchAutoEnemySwitch.description>Исследуйте детектор противника для выключателя питания. Он позволит автоматически переключать питание при обнаружении врага.</ResearchAutoEnemySwitch.description>
+
+	<ResearchAutoPowerSwitch.label>Датчик движения</ResearchAutoPowerSwitch.label>
+	<ResearchAutoPowerSwitch.description>Исследуйте датчик движения для выключателя питания. Он позволит автоматически переключать питание при обнаружении колониста в радиусе действия.</ResearchAutoPowerSwitch.description>
+
+</LanguageData>

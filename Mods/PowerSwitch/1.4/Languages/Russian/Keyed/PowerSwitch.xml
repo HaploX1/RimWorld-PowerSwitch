@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well  Steam76561198079058811  ноябрь2018 -->
+
+<LanguageData>
+
+	<!-- PowerSwitch -->
+	<PowerSwitch_SwitchOnOff>Выключатель: Вкл/Выкл</PowerSwitch_SwitchOnOff>
+	<PowerSwitch_AutoONMotionRoom>Датчик движения в радиусе комнаты.</PowerSwitch_AutoONMotionRoom>
+	<PowerSwitch_AutoONMotionNearbyRange>Датчик движения с радиусом обнаружения:</PowerSwitch_AutoONMotionNearbyRange>
+	<PowerSwitch_AutoONEnemyNearbyRange>Включающий питание детектор противника с радиусом обнаружения:</PowerSwitch_AutoONEnemyNearbyRange>
+	<PowerSwitch_AutoOFFEnemyNearbyRange>Отключающий питание детектор противника с радиусом обнаружения:</PowerSwitch_AutoOFFEnemyNearbyRange>
+	<PowerSwitch_TimerClickSwitchOnTime>Таймер: время включения.</PowerSwitch_TimerClickSwitchOnTime>
+	<PowerSwitch_TimerClickSwitchOffTime>Таймер: время отключения.</PowerSwitch_TimerClickSwitchOffTime>
+	<PowerSwitch_On>Включено</PowerSwitch_On>
+	<PowerSwitch_Off>Выключено</PowerSwitch_Off>
+	<PowerSwitch_OnRange>Включено - Радиус действия:</PowerSwitch_OnRange>
+	<PowerSwitch_AutoMotion>Датчик движения:</PowerSwitch_AutoMotion>
+	<PowerSwitch_AutoEnemy>Детектор противника:</PowerSwitch_AutoEnemy>
+	<PowerSwitch_Timer>Таймер</PowerSwitch_Timer>
+	<PowerSwitch_TimeOnTimeOff>{0:00}ч - {1:00}ч</PowerSwitch_TimeOnTimeOff>
+
+	<!-- PowerSwitch ModSettings -->
+	<PowerSwitch_ModOptions_Category>Power Switch</PowerSwitch_ModOptions_Category>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation>Обнаружение противника и переключение с помощью указания для колониста (по умолчанию: Вкл)</PowerSwitch_ModOptions_EnemyDetectionViaDesignation>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>Если отключить, то при обнаружении противника, переключение будет происходить сразу же, без вмешательства колониста.</PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>
+	<PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>Дальность обнаружения противника (по умолчанию: 45% от размера карты)</PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>
+
+</LanguageData>
