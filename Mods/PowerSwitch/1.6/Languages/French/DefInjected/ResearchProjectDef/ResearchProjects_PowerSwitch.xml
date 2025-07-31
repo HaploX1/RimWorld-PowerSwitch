@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<ResearchAutoEnemySwitch.label>Interrupteur à détection d'ennemis</ResearchAutoEnemySwitch.label>
+	<ResearchAutoEnemySwitch.description>Recherchez un détecteur d'ennemis pour l'interrupteur. Cela permettra une commutation automatique de l'alimentation lorsqu'un ennemi est détecté.</ResearchAutoEnemySwitch.description>
+	
+	<ResearchAutoPowerSwitch.label>Interrupteur automatisé</ResearchAutoPowerSwitch.label>
+	<ResearchAutoPowerSwitch.description>Recherchez un détecteur de mouvement pour l'interrupteur. Cela permettra une commutation automatique.</ResearchAutoPowerSwitch.description>
+
+</LanguageData>

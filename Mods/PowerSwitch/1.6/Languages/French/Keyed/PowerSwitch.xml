@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- PowerSwitch -->
+	<PowerSwitch_SwitchOnOff>Interrupteur : Allumé/Éteint.</PowerSwitch_SwitchOnOff>
+	<PowerSwitch_AutoONMotionRoom>Allumage Auto : Mouvement dans la pièce.</PowerSwitch_AutoONMotionRoom>
+	<PowerSwitch_AutoONMotionNearbyRange>Allumage Auto : Mouvement proche. Distance :</PowerSwitch_AutoONMotionNearbyRange>
+	<PowerSwitch_AutoONEnemyNearbyRange>Allumage Auto : Ennemi proche. Distance :</PowerSwitch_AutoONEnemyNearbyRange>
+	<PowerSwitch_AutoOFFEnemyNearbyRange>Extinction Auto : Ennemi proche. Distance :</PowerSwitch_AutoOFFEnemyNearbyRange>
+	<PowerSwitch_TimerClickSwitchOnTime>Horloge : Cliquer pour définir une heure d'allumage.</PowerSwitch_TimerClickSwitchOnTime>
+	<PowerSwitch_TimerClickSwitchOffTime>Horloge : Cliquer pour définir une heure d'extinction.</PowerSwitch_TimerClickSwitchOffTime>
+	<PowerSwitch_On>Allumé</PowerSwitch_On>
+	<PowerSwitch_Off>Éteint</PowerSwitch_Off>
+	<PowerSwitch_OnRange>Allumé - Distance :</PowerSwitch_OnRange>
+	<PowerSwitch_AutoMotion>Détection de mouvement :</PowerSwitch_AutoMotion>
+	<PowerSwitch_AutoEnemy>Détection d'ennemis :</PowerSwitch_AutoEnemy>
+	<PowerSwitch_Timer>Horloge</PowerSwitch_Timer>
+	<PowerSwitch_TimeOnTimeOff>{0:00}h - {1:00}h</PowerSwitch_TimeOnTimeOff>
+
+	<!-- PowerSwitch ModSettings -->
+	<PowerSwitch_ModOptions_Category>Power Switch</PowerSwitch_ModOptions_Category>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation>Détection d'ennemis via le désignateur (Recommandé : On)</PowerSwitch_ModOptions_EnemyDetectionViaDesignation>
+	<PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>Si vous désactivez cette option, la détection d'ennemi basculera directement, sans utiliser le désignateur.</PowerSwitch_ModOptions_EnemyDetectionViaDesignation_hint>
+	<PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>Définir la distance de détection d'ennemis (Recommandé : 45% de la taille de la carte)</PowerSwitch_ModOptions_EnemyDetectionRangePercentofMap>
+	
+</LanguageData>
